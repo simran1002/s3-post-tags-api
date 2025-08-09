@@ -7,7 +7,7 @@ A RESTful API for managing blog posts with tags and image upload functionality b
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/simran1002/s3-post-tags-api.git
    cd blog-api
    ```
 
@@ -18,11 +18,8 @@ A RESTful API for managing blog posts with tags and image upload functionality b
 
 3. **Start the server**
    ```bash
-   # Development mode
    npm run dev
-   
-   # Production mode
-   npm start
+
    ```
 
 ## API Documentation
@@ -49,7 +46,7 @@ http://localhost:3000/api-docs
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | GET | `/api/posts` | Get all posts with filtering, sorting, and pagination |
-| POST | `/api/posts` | Create a new post (with optional image upload) |
+| POST | `/api/posts` | Create a new post (with image upload) |
 | GET | `/api/posts/:id` | Get a specific post |
 | PUT | `/api/posts/:id` | Update a post |
 | DELETE | `/api/posts/:id` | Delete a post |
